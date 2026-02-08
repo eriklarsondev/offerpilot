@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# os files
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# typescript
+*.tsbuildinfo
+
+# test coverage
+coverage/
+
+# temp files
+tmp/
+temp/
